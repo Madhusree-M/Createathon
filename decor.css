@@ -466,3 +466,147 @@ nav {
   padding: 1rem;
   text-align: center;
 }
+
+.testimonial__card p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: var(--text-dark);
+}
+
+.testimonial__card img {
+  max-width: 60px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  border-radius: 100%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial__card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.testimonial__card h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.blog__grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.blog__card img {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog__card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.blog__card p {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.blog__card p span {
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text-light);
+}
+
+.footer {
+  background-color: var(--primary-color);
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  align-items: center;
+  border-bottom: 1px solid var(--white);
+}
+
+.footer__content h4 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  color: var(--white);
+}
+
+.footer__content p {
+  color: var(--white);
+}
+
+.footer__form form {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.footer__form input {
+  width: 100%;
+  padding: 0 1rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.footer__form button {
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+
+.footer__bar {
+  padding-block: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer__logo h4 a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: var(--header-font);
+  color: var(--white);
+}
+
+.footer__logo p {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: var(--white);
+}
+
+.footer__nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer__link a {
+  font-weight: 500;
+  color: var(--white);
+  white-space: nowrap;
+}
